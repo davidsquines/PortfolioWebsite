@@ -4,7 +4,9 @@ class NavBar extends Component {
     render() {
         return (
             <nav className="NavBarItems">
-                <h1 className="navbar-logo"></h1>
+                <h1 className="navbar-logo">React<i className="fab fa-react">
+                </i>
+                </h1>
                 <div className="menu-icon">
 
                 </div>
