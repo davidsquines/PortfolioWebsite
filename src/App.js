@@ -1,22 +1,22 @@
-
-import React from 'react';
 import './App.css';
-import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import About from './components/pages/About';
-import Contact from './components/pages/Contact';
-import Projects from './components/pages/Projects';
+import {BrowserRouter as Router} from 'react-router-dom';
+import Home from './pages/Home';
+
+
 
 function App() {
   return (
-    <Router>
-       <Navbar/>
-       <Switch>
-         <Route path='/About' exact component={About}/>
-         <Route path='/Contact' exact component={Contact}/>
-         <Route path='/Projects' exact component={Projects}/>
-       </Switch>
-    </Router>
+      <Router>
+        <Home/>
+      </Router>
+    // <Router>
+    //    <Navbar/>
+    //    <Switch>
+    //      <Route path='/About' exact component={About}/>
+    //      <Route path='/Contact' exact component={Contact}/>
+    //      <Route path='/Projects' exact component={Projects}/>
+    //    </Switch>
+    // </Router>
   );
 }
 
