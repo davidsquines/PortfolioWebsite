@@ -9,14 +9,7 @@ function App() {
       <Router>
         <Home/>
       </Router>
-    // <Router>
-    //    <Navbar/>
-    //    <Switch>
-    //      <Route path='/About' exact component={About}/>
-    //      <Route path='/Contact' exact component={Contact}/>
-    //      <Route path='/Projects' exact component={Projects}/>
-    //    </Switch>
-    // </Router>
+  
   );
 }
 

@@ -11,7 +11,7 @@ const Navbar = ({toggle}) => {
              <Nav>
                     <NavbarContainer>
                         <NavLogo to="/">
-                            dolla
+                            David Quines
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
@@ -23,8 +23,8 @@ const Navbar = ({toggle}) => {
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="experiance">
-                                    Experiance
+                                <NavLinks to="experience">
+                                    Experience
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
@@ -33,8 +33,8 @@ const Navbar = ({toggle}) => {
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="awards">
-                                    Awards
+                                <NavLinks to="/">
+                                    Contact Me
                                 </NavLinks>
                             </NavItem>
                         </NavMenu>

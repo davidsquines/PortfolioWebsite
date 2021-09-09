@@ -137,4 +137,6 @@ export const TechUsedP = styled.p`
     text-align: center;
     color: gray;
     font-weight: bold;
+
+    
 `;
