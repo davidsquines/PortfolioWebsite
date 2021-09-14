@@ -24,7 +24,14 @@ const IntroductionSection = () => {
                     Aspiring Software Engineer with emphasis in Full Stack Development for mobile and web applciations.
                 </IntroP>
                 <IntroBtnWrapper>
-                    <Button to= "resume" onMouseEnter={onHover} onMouseLeave={onHover} >
+                    <Button to= "resume" onMouseEnter={onHover} onMouseLeave={onHover} smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact="true"
+                            offset={-80}
+                            primary={1}
+                            dark={0}
+                            dark2={ 0}>
                         Get In Touch {hover ? <ArrowForward /> : <ArrowRight/>}
                     </Button>
                 </IntroBtnWrapper>

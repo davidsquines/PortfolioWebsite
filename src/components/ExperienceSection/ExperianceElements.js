@@ -40,7 +40,7 @@ export const TabsContent = styled.div`
 `;
 
 export const TabContentHeader = styled.h1`
-    color: white;
+    color: #00d8ff;
     
     
 `;
@@ -51,7 +51,7 @@ export const SubTabContent = styled.p`
 `;
 
 export const BulletedList = styled.ul`
-    color: red;
+    color: white;
     font-family: inherit;
 `;
 
@@ -72,5 +72,5 @@ export const SubtitleH3 = styled.h3`
 
 export const SubtitleH5 = styled.h5`
     font: .5rem;
-    color: white;
+    color: #00d8ff;
 `;

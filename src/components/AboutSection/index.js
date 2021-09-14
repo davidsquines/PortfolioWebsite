@@ -13,7 +13,7 @@ const About = ({lightBg, imgStart, topLine, lightText, darkText, subtitle, butto
                         <Heading lightText={lightText}>{headLine}</Heading>
                         <Subtitle darkText={darkText}>{subtitle}</Subtitle>
                         <BtnWrap>
-                            <Button to='home'
+                            <Button to='projects'
                             smooth={true}
                             duration={500}
                             spy={true}

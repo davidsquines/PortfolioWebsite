@@ -1,12 +1,12 @@
 import React from 'react';
 import icon1 from '../../images/chorosX.jpg';
 import icon2 from '../../images/gotgains.png';
-import githubIcon from '../../images/github.png';
+import githubIcon from '../../images/arrow.png'
 import eureqaVid from '../../videos/eureqavideo.mp4';
 import gotGainsVid from '../../videos/gotgains.mp4';
 import chorosXVid from '../../videos/chorosX.mp4';
 
-import { ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsH2, ProjectsP, GithubIcon, VideoBackground, TechUsedP } from './ProjectsElements'
+import { ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsH2, ProjectsP, ArrowIcon, VideoBackground, TechUsedP } from './ProjectsElements'
 const Projects = () => {
     return (
         <ProjectsContainer id="projects">
@@ -15,7 +15,7 @@ const Projects = () => {
 
                     <ProjectsCard>{/*This card will contain the projects I have worked on, some in github*/}
                         <a href="https://github.com/davidsquines/GotGainz" target="_blank" >
-                            <GithubIcon src={githubIcon}/>
+                            <ArrowIcon src={githubIcon} />
                         </a>
                         <ProjectsH2>Got Gains</ProjectsH2>
                      
@@ -28,8 +28,8 @@ const Projects = () => {
                         <ProjectsP>A fitness mobile application designed to help users with thier workout journey.</ProjectsP>
                     </ProjectsCard>
                 <ProjectsCard>{/*This card will contain the projects I have worked on, some in github*/}
-                        <a href="https://github.com/davidsquines/GotGainz" target="_blank" >
-                            <GithubIcon src={githubIcon}/>
+                        <a href="https://github.com/ChorosX" target="_blank" >
+                        <ArrowIcon src={githubIcon} />
                         </a>
                     <ProjectsH2>ChorosX</ProjectsH2>
                     <TechUsedP>React.js  |  Firebase  |  Flask  |  Three.js </TechUsedP>
@@ -41,8 +41,8 @@ const Projects = () => {
                     <ProjectsP>A live satellite tracking web application that shows the real time postions of well known satellites in Earth's orbit</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>{/*This card will contain the projects I have worked on, some in github*/}
-                        <a href="https://github.com/davidsquines/GotGainz" target="_blank" >
-                            <GithubIcon src={githubIcon}/>
+                        <a href="https://github.com/ProjectEureka" target="_blank" >
+                        <ArrowIcon src={githubIcon} />
                         </a>
                        
                     <ProjectsH2>EureQa</ProjectsH2>

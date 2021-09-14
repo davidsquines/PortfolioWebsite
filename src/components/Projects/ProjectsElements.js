@@ -66,13 +66,14 @@ export const ProjectsCard = styled.div`
     }
 `;
 
-export const GithubIcon = styled.img`
-    max-width: 20%;
-    margin-bottom: 10px;
+export const ArrowIcon = styled.img`
+    max-width: 8%;
+    max-height: 8%;
+    margin: 10px 10px 10px 10px;
     position: absolute;
     top:0;
     right: 0%;
-    border-radius: 10px; 
+  
     @media screen and (max-width: 768px){
         display: none;
     }
