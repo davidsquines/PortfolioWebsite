@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import About from '../components/AboutSection';
 import { HomeObj1, HomeObj2, HomeObj3, HomeObj4} from '../components/AboutSection/data';
+import Contact from '../components/ContactMeSection';
 import Experiance from '../components/ExperienceSection';
 import Footer from '../components/Footer';
 import IntroductionSection from '../components/IntroductionSection';
@@ -10,7 +11,7 @@ import Sidebar from '../components/Sidebar'
 
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () =>{
         setIsOpen(!isOpen);
@@ -24,7 +25,7 @@ const Home = () => {
             <About{...HomeObj1}/>
             <Experiance/>
             <Projects/>
-            <About{...HomeObj4}/>
+            <Contact/>
             <Footer/>
             
         </>

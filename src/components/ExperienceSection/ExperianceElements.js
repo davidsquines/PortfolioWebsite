@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 export const ExperienceContainer = styled.div`
     height:700px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,6 +23,7 @@ export const ExperienceContainer = styled.div`
 export const ExperienceWrapper = styled.div`
     align-items: center;
     position: relative;
+    max-width: 75%;
 `;
 
 export const TabContainer = styled.div`

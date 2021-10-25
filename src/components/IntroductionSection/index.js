@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import { IntroContainer, IntroBackground, VideoBackground, IntroContent, IntroHeader, IntroP, IntroBtnWrapper, ArrowForward, ArrowRight   } from './IntroElements'
+import { IntroProfilePic ,IntroContainer, IntroBackground, VideoBackground, IntroContent, IntroHeader, IntroP, IntroBtnWrapper, ArrowForward, ArrowRight   } from './IntroElements'
 import Video from '../../videos/video.mp4';
 import {Button} from '../ButtonElement';
+import profilePicture from '../../assets/profilePic.jpg';
 
 
 const IntroductionSection = () => {
@@ -19,6 +20,7 @@ const IntroductionSection = () => {
                 </VideoBackground>
             </IntroBackground>
             <IntroContent>
+                <IntroProfilePic src={profilePicture}></IntroProfilePic>
                 <IntroHeader>David Quines</IntroHeader>
                 <IntroP>
                     Aspiring Software Engineer with emphasis in Full Stack Development for mobile and web applciations.

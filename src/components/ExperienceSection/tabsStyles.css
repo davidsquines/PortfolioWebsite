@@ -13,7 +13,11 @@
       flex-grow: 0;
       border-right: 1px solid #ddd;
       margin-right: 2rem;
+
+
   }
+
+  
   
   .rwt__tab {
       background: transparent;
@@ -53,3 +57,5 @@
     height: 100%;
     border-right: 3px solid #00d8ff;
   }
+
+

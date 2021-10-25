@@ -23,7 +23,11 @@ export const IntroContainer = styled.div`
     }
  
 `;
-
+export const IntroProfilePic = styled.img`
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+`;
 export const IntroBackground = styled.div`
     position: absolute;
     top:0;
@@ -34,7 +38,6 @@ export const IntroBackground = styled.div`
     height: 100%;
     overflow: hidden;
 `;
-
 export const VideoBackground = styled.video`
     width: 100%;
     height: 100%;
@@ -52,9 +55,6 @@ export const IntroContent = styled.div`
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    
-    
-    
 `;
 
 export const IntroHeader = styled.h1`
